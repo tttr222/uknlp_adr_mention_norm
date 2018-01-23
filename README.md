@@ -32,6 +32,12 @@ To execute the file, simply run:
 
 See the `sample_output.txt` file for the output of this model on this particular dataset.
 
+The output format is:
+
+`ID <-tab-> MEDDRA PT`
+
+For example:
+
 ~~~
 44675	10041349
 40103	10000125
@@ -45,7 +51,6 @@ See the `sample_output.txt` file for the output of this model on this particular
 45048	10044565
 40652	10011469
 ...
-
 ~~~
 
 To evaluate the test predictions, you must have the official test labels which are not provided in this repository.
