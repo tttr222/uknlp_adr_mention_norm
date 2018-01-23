@@ -4,8 +4,6 @@ import numpy as np
 import pandas as pd
 from CharLSTM import CharacterLSTM
 import sklearn.metrics as skm
-import argparse
-from multiprocessing import Pool
 
 num_ensembles = 10
 num_epoch = 40

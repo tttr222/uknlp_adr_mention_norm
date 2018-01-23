@@ -8,6 +8,7 @@ Packages required:
 ~~~
 numpy
 sklearn
+pandas
 tensorflow 1.0.0 with tensorflow-fold
 ~~~
 
