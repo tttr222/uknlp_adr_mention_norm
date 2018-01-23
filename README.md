@@ -1,8 +1,8 @@
 # ADR Mention Normalization
 
-A supervised classification model for concept normalization of adversed drug reactions (ADRs) mentions. Given a concept mention (without context), this model returns a MEDDRA Preferred Term (PT) code.
+A supervised classification model for concept normalization of adversed drug reactions (ADRs) mentions. Given a concept mention (without contextual information), this model predicts the corresponding MEDDRA Preferred Term (PT) code.
 
-The deep architecture is a hierarchical such that a forward character-level LSTM composes word representations. These word representations are then composed via a bi-directional LSTM to form the phrase (corresponding to the mention).
+The deep architecture is a hierarchical such that a forward character-level LSTM composes word representations. These word representations are then composed via a bi-directional LSTM to form the phrase (corresponding to the mention). The model is designed such that there are as many softmax output units as there are unique MEDDRA codes appearing in the training set. 
 
 Packages required:
 ~~~
