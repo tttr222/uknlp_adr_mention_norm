@@ -66,7 +66,7 @@ Please consider citing the following paper(s) if you use this software in your w
 > Sifei Han, Tung Tran, Anthony Rios, and Ramakanth Kavuluru. "Team UKNLP: Detecting ADRs, Classifying Medication Intake Messages, and Normalizing ADR Mentions on Twitter" In Proceedings of the 2nd Social Media Mining for Health Research and Applications Workshop co-located with the American Medical Informatics Association Annual Symposium (AMIA 2017), vol-1996, pp. 49-53. 2017.
 
 ```
-@inproceedings{kavuluru2017extracting,
+@inproceedings{han2017team,
   title={Team UKNLP: Detecting ADRs, Classifying Medication Intake Messages, and Normalizing ADR Mentions on Twitter},
   author={Han, Sifei and Tran, Tung and Rios, Anthony and Kavuluru, Ramakanth},
   booktitle={Social Media Mining for Health Research and Applications},
